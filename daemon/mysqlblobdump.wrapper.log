@@ -1,0 +1,16 @@
+2020-01-28 13:58:28 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\node-windows\lib\wrapper.js --file C:\Users\rafael.marinho\Documents\dev\BackupMysql\app.js --log "mysqlblobdump wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-01-28 13:58:28 - Started 8608
+2020-01-28 14:01:27 - Stopping mysqlblobdump.exe
+2020-01-28 14:01:27 - ProcessKill 8608
+2020-01-28 14:01:27 - Found child process: 7744 Name: conhost.exe
+2020-01-28 14:01:27 - Found child process: 3908 Name: node.exe
+2020-01-28 14:01:27 - Stopping process 7744
+2020-01-28 14:01:27 - Send SIGINT 7744
+2020-01-28 14:01:27 - SIGINT to 7744 failed - Killing as fallback
+2020-01-28 14:01:27 - Stopping process 3908
+2020-01-28 14:01:27 - Send SIGINT 3908
+2020-01-28 14:01:27 - SIGINT to 3908 failed - Killing as fallback
+2020-01-28 14:01:27 - Stopping process 8608
+2020-01-28 14:01:27 - Send SIGINT 8608
+2020-01-28 14:01:27 - SIGINT to 8608 failed - Killing as fallback
+2020-01-28 14:01:27 - Finished mysqlblobdump.exe

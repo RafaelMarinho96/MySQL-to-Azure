@@ -1,0 +1,27 @@
+Upload has been send
+BlobResult {
+  container: 'reinf-prd',
+  name: 'backup_28-01-2020_1580230714106',
+  lastModified: 'Tue, 28 Jan 2020 16:59:01 GMT',
+  etag: '"0x8D7A4135FE0F7E7"',
+  contentLength: '0',
+  requestId: '139c6523-901e-0019-1cfc-d58aa8000000',
+  contentSettings: { contentMD5: '07xmMeZMwYfV+R9k3c5i9g==' } }
+Upload has been send
+BlobResult {
+  container: 'reinf-prd',
+  name: 'backup_28-01-2020_1580230714106',
+  lastModified: 'Tue, 28 Jan 2020 17:00:01 GMT',
+  etag: '"0x8D7A41383765183"',
+  contentLength: '0',
+  requestId: '139d0f40-901e-0019-77fc-d58aa8000000',
+  contentSettings: { contentMD5: '07xmMeZMwYfV+R9k3c5i9g==' } }
+Upload has been send
+BlobResult {
+  container: 'reinf-prd',
+  name: 'backup_28-01-2020_1580230714106',
+  lastModified: 'Tue, 28 Jan 2020 17:01:01 GMT',
+  etag: '"0x8D7A413A7355AF3"',
+  contentLength: '0',
+  requestId: '139da46e-901e-0019-79fc-d58aa8000000',
+  contentSettings: { contentMD5: '07xmMeZMwYfV+R9k3c5i9g==' } }

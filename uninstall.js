@@ -4,10 +4,10 @@ let svc = new Service({
     name: '<script-name>',
     description: 'Upload mysql backups to azure blob',
     script: '<script-path>'
+});
+
+svc.on('uninstall', function() {
+    console.log('Uninstall proccess completed')
 })
 
-svc.on('install', function() {
-    svc.start();
-})
-
-svc.install();
+svc.uninstall();
