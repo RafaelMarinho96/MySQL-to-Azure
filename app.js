@@ -3,7 +3,10 @@ const azure = require('azure-storage');
 const uniqid = require('uniqid');
 const cron = require('node-cron');
 const fs = require('fs');
-const blob = azure.createBlobService('<azure-blob-connection-string>');
+
+require('dotenv').config();
+
+const blob = azure.createBlobService(process.env.AZURE_CONNECTION_STRING);
 
 cron.schedule('* * * * *', () => {
     console.log('Running schedule job');
@@ -19,10 +22,10 @@ cron.schedule('* * * * *', () => {
 let backup = async (backupName) => {
     const result = await mysqldump({
         connection: {
-            host: '<database-host>',
-            user: '<database-user>',
-            password: '<database-pass>',
-            database: '<database-name>',
+            host: process.env.DB_HOST,
+            user: process.env.DB_USER,
+            password: process.env.DB_PASS,
+            database: process.env.DB_DATABASE,
         },
         dumpToFile: backupName,
         compressFile: true,
@@ -32,7 +35,7 @@ let backup = async (backupName) => {
 }
 
 let upload = (backupName) => {
-    blob.createBlockBlobFromLocalFile('<azure-container-name>', backupName, backupName, function(error, result, response) {
+    blob.createBlockBlobFromLocalFile(process.env.AZURE_CONTAINER_NAME, backupName, backupName, function(error, result, response) {
         if (!error) {
           console.log('Upload has been send');
           console.log(result);
