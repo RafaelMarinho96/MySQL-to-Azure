@@ -9,7 +9,6 @@ require('dotenv').config();
 const blob = azure.createBlobService(process.env.AZURE_CONNECTION_STRING);
 
 cron.schedule('* * * * *', () => {
-    console.log('Running schedule job');
     const now = new Date;
     const backupName = 'backup_' + now.getDate() + "-" + now.getMonth() + 1 + "-" + now.getFullYear() + '_' + uniqid.time() + '.sql.gz';
     backup(backupName);
@@ -18,7 +17,6 @@ cron.schedule('* * * * *', () => {
     timezone: "America/Sao_Paulo"
 });
 
-// Dump File
 let backup = async (backupName) => {
     const result = await mysqldump({
         connection: {
@@ -37,22 +35,16 @@ let backup = async (backupName) => {
 let upload = (backupName) => {
     blob.createBlockBlobFromLocalFile(process.env.AZURE_CONTAINER_NAME, backupName, backupName, function(error, result, response) {
         if (!error) {
-          console.log('Upload has been send');
-          console.log(result);
           remove(backupName);
-        } else {
-            console.log('Upload failed');
-            console.log(error);
         }
     });
 }
 
 let remove = (backupName) => {
     try {
-        fs.unlinkSync(backupName)
-        console.log('Removing');
+        fs.unlinkSync(backupName);
       } catch(err) {
-        console.error(err)
+        
       }
 }
 
