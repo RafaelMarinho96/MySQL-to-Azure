@@ -1,0 +1,133 @@
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:6060) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:6060) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.createConnection (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysql2\promise.js:231:31)
+    at Function.<anonymous> (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:730:51)
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:40:12)
+    at Function.connect (C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:729:16)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:889:35
+    at Generator.next (<anonymous>)
+    at C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\mysqldump\dist\cjs.js:44:71
+(node:6060) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)

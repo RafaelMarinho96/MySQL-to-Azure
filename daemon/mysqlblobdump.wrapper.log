@@ -14,3 +14,19 @@
 2020-01-29 11:48:32 - Send SIGINT 3800
 2020-01-29 11:48:32 - SIGINT to 3800 failed - Killing as fallback
 2020-01-29 11:48:32 - Finished mysqlblobdump.exe
+2020-01-30 10:50:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\rafael.marinho\Documents\dev\BackupMysql\node_modules\node-windows\lib\wrapper.js --file C:\Users\rafael.marinho\Documents\dev\BackupMysql\app.js --log "mysqlblobdump wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-01-30 10:50:34 - Started 4448
+2020-01-30 11:03:59 - Stopping mysqlblobdump.exe
+2020-01-30 11:03:59 - ProcessKill 4448
+2020-01-30 11:04:11 - Found child process: 4416 Name: conhost.exe
+2020-01-30 11:04:11 - Found child process: 6060 Name: node.exe
+2020-01-30 11:04:12 - Stopping process 4416
+2020-01-30 11:04:13 - Send SIGINT 4416
+2020-01-30 11:04:16 - SIGINT to 4416 failed - Killing as fallback
+2020-01-30 11:04:17 - Stopping process 6060
+2020-01-30 11:04:17 - Send SIGINT 6060
+2020-01-30 11:04:17 - SIGINT to 6060 failed - Killing as fallback
+2020-01-30 11:04:17 - Stopping process 4448
+2020-01-30 11:04:17 - Send SIGINT 4448
+2020-01-30 11:04:17 - SIGINT to 4448 failed - Killing as fallback
+2020-01-30 11:04:17 - Finished mysqlblobdump.exe
