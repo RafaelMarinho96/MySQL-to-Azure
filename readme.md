@@ -1,4 +1,4 @@
-# MySQL Dump to Azure Storage Blob
+ # MySQL Dump to Azure Storage Blob
 ##### A windows service builded with nodejs
 
 This service was created to run on a Windows machine. Below are the requirements.
@@ -28,19 +28,49 @@ Replace all values between <>.
 ##### Step 2
 On app.js file find to cron schedule function, and replace the followings parameters.
 
-`* * * * *`
+> `* * * * *`
 
-This link contains the description to each * parameter.
-Link: https://www.npmjs.com/package/node-cron
+###### Parameter Description
+ ##### ┌────────────── second (optional)
+ ##### │ ┌──────────── minute
+ ##### │ │ ┌────────── hour
+ ##### │ │ │ ┌──────── day of month
+ ##### │ │ │ │ ┌────── month
+ ##### │ │ │ │ │ ┌──── day of week
+ ##### │ │ │ │ │ │
+ ##### │ │ │ │ │ │
+ #### * * * * * *
+ 
+###### Example:
+#
+1 . Schedule to 15:30 pm
+> `
+cron.schedule('10 15 * * *', () => {....},{....});
+`
+
+2 . Schedule to 01:00 am
+> `
+cron.schedule('0 1 * * *', () => {....},{....});
+`
+
+##### Allowed values
+second:	0-59
+minute:	0-59
+hour:	0-23
+day of month:	1-31
+month:	1-12 (or names)
+day of week:	0-7 (or names, 0 or 7 are sunday)
+
+> Reference: https://www.npmjs.com/package/node-cron
 
 ##### Step 3
 Open nodejs terminal and navigate to code path, after that run the following command.
 
-`node install.js`
+> `node install.js`
 
 For uninstall just run this command.
 
-`node uninstall.js`
+> `node uninstall.js`
 
 This command will create the windows service.
 
