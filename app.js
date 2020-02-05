@@ -11,7 +11,7 @@ const blob = azure.createBlobService(process.env.AZURE_CONNECTION_STRING);
 
 cron.schedule('10 15 * * *', () => {
     const now = new Date;
-    const backupName = 'backup_' + now.getDate() + "-" + now.getMonth() + 1 + "-" + now.getFullYear() + '_' + uniqid.time() + '.sql.gz';
+    const backupName = 'backup_' + now.getDate() + "-" + (now.getMonth() + 1) + "-" + now.getFullYear() + '_' + uniqid.time() + '.sql.gz';
     backup(backupName);
 },{
     scheduled: true,
