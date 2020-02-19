@@ -13,9 +13,9 @@ This service was created to run on a Windows machine. Below are the requirements
 ##### Step 1
 Clone or download this repository, then create a file with the extension .env in the root path, the file must contain the following parameters.
 
-AZURE_CONNECTION_STRING=<Connection string from your blob storage>
+AZURE_CONNECTION_STRING = "Connection string from your blob storage"
  
-AZURE_CONTAINER_NAME=<Name of your azure container>
+AZURE_CONTAINER_NAME = "Name of your azure container"
 
 DB_HOST = "Host from MySQL"
  
