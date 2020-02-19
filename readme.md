@@ -17,19 +17,19 @@ AZURE_CONNECTION_STRING=<Connection string from your blob storage>
  
 AZURE_CONTAINER_NAME=<Name of your azure container>
 
-DB_HOST = <Host from MySQL>
+DB_HOST = "Host from MySQL"
  
-DB_USER = <User from MySQL>
+DB_USER = "User from MySQL"
  
-DB_PASS = <Password from MySQL>
+DB_PASS = "Password from MySQL"
  
-DB_DATABASE = <Database from MySQL>
+DB_DATABASE = "Database from MySQL"
  
-SERVICE_NAME = <Windows Service Name>
+SERVICE_NAME = "Windows Service Name"
  
-SERVICE_DESCRIPTION = <Description of your service>
+SERVICE_DESCRIPTION = "Description of your service"
  
-SCRIPT_NAME = <Script name, default value is app.js>
+SCRIPT_NAME = "Script name, default value is app.js"
 
 Replace all values between <>.
 
