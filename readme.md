@@ -31,7 +31,7 @@ SERVICE_DESCRIPTION = "Description of your service"
  
 SCRIPT_NAME = "Script name, default value is app.js"
 
-Replace all values between <>.
+Replace all values between "".
 
 ##### Step 2
 On app.js file find to cron schedule function, and replace the followings parameters.
